@@ -1,0 +1,10 @@
+C:\Users\Miku\Documents\GitHub\Battery\Battery_IPD\Battery\Battery\bin\Debug\Battery.exe.config
+C:\Users\Miku\Documents\GitHub\Battery\Battery_IPD\Battery\Battery\bin\Debug\Battery.exe
+C:\Users\Miku\Documents\GitHub\Battery\Battery_IPD\Battery\Battery\bin\Debug\Battery.pdb
+C:\Users\Miku\Documents\GitHub\Battery\Battery_IPD\Battery\Battery\obj\Debug\Battery.csprojResolveAssemblyReference.cache
+C:\Users\Miku\Documents\GitHub\Battery\Battery_IPD\Battery\Battery\obj\Debug\Battery.FormBattery.resources
+C:\Users\Miku\Documents\GitHub\Battery\Battery_IPD\Battery\Battery\obj\Debug\Battery.Properties.Resources.resources
+C:\Users\Miku\Documents\GitHub\Battery\Battery_IPD\Battery\Battery\obj\Debug\Battery.csproj.GenerateResource.Cache
+C:\Users\Miku\Documents\GitHub\Battery\Battery_IPD\Battery\Battery\obj\Debug\Battery.csproj.CoreCompileInputs.cache
+C:\Users\Miku\Documents\GitHub\Battery\Battery_IPD\Battery\Battery\obj\Debug\Battery.exe
+C:\Users\Miku\Documents\GitHub\Battery\Battery_IPD\Battery\Battery\obj\Debug\Battery.pdb
