@@ -64,11 +64,11 @@ namespace Battery
             if (trackBarBattery.Value == 0)
             {
                 trackBarBattery.Value = 1;
-                labelInMinutes.Text = @"Screen timeout(only for battery) " + numericUpDownBattery.Value + @" seconds now.";                
+                labelInMinutes.Text = @"Screen timeout(only for battery) " + (numericUpDownBattery.Value)/60 + @" min now.";                
             }
             else
             {
-                labelInMinutes.Text = @"Screen timeout in minutes(only for battery) " + trackBarBattery.Value + @" min now.";
+                labelInMinutes.Text = @"Screen timeout in minutes(only for battery) " + (trackBarBattery.Value)/60 + @" min now.";
             }
             numericUpDownBattery.Value = trackBarBattery.Value * 60;
             batteryWorker.SetTimeout(Convert.ToInt32(numericUpDownBattery.Value));    
@@ -76,7 +76,7 @@ namespace Battery
 
         private void numericUpDownBattery_ValueChanged(object sender, EventArgs e)
         {
-            labelInMinutes.Text = @"Screen timeout(only for battery) " + numericUpDownBattery.Value + @" seconds now.";
+            labelInMinutes.Text = @"Screen timeout(only for battery) " + (int)(numericUpDownBattery.Value)/60 + @" min now.";
             trackBarBattery.Value = Convert.ToInt32(numericUpDownBattery.Value / 60);//приведение к инту
             batteryWorker.SetTimeout(Convert.ToInt32(numericUpDownBattery.Value));//посылаем время для установки
         }
